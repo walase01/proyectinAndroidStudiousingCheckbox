@@ -43,12 +43,84 @@ public class MainActivity extends AppCompatActivity {
 
     public void showLenguagesDevelopment(View view){
         if (java.isChecked() && JAVAS.isChecked() && Go.isChecked() && Kotlin.isChecked() && python.isChecked() && scala.isChecked() && rubi.isChecked() && switf.isChecked() && Dart.isChecked() && C.isChecked() && cmore.isChecked()){
-            String[] Lista = {java.getText().toString(),JAVAS.getText().toString()};
-
+            String[] Lista = {java.getText().toString(),JAVAS.getText().toString(), Go.getText().toString(),Kotlin.getText().toString(),python.getText().toString(), scala.getText().toString(),rubi.getText().toString(),switf.getText().toString(),Dart.getText().toString(),C.getText().toString(),cmore.getText().toString()};
             for (int i=0;i<Lista.length;i++){
                 Toast.makeText(this,Lista[i],Toast.LENGTH_SHORT).show();
             }
 
         }
+        if (java.isChecked() && JAVAS.isChecked() && Go.isChecked() && Kotlin.isChecked() && python.isChecked() && scala.isChecked() && rubi.isChecked() && switf.isChecked() && Dart.isChecked() && C.isChecked()){
+            String[] Lista = {java.getText().toString(),JAVAS.getText().toString(), Go.getText().toString(),Kotlin.getText().toString(),python.getText().toString(), scala.getText().toString(),rubi.getText().toString(),switf.getText().toString(),Dart.getText().toString(),C.getText().toString()};
+            for (int i=0;i<Lista.length;i++){
+                Toast.makeText(this,Lista[i],Toast.LENGTH_SHORT).show();
+            }
+
+        }
+        if (java.isChecked() && JAVAS.isChecked() && Go.isChecked() && Kotlin.isChecked() && python.isChecked() && scala.isChecked() && rubi.isChecked() && switf.isChecked() && Dart.isChecked()){
+            String[] Lista = {java.getText().toString(),JAVAS.getText().toString(), Go.getText().toString(),Kotlin.getText().toString(),python.getText().toString(), scala.getText().toString(),rubi.getText().toString(),switf.getText().toString(),Dart.getText().toString()};
+            for (int i=0;i<Lista.length;i++){
+                Toast.makeText(this,Lista[i],Toast.LENGTH_SHORT).show();
+            }
+
+        }
+        if (java.isChecked() && JAVAS.isChecked() && Go.isChecked() && Kotlin.isChecked() && python.isChecked() && scala.isChecked() && rubi.isChecked() && switf.isChecked()){
+            String[] Lista = {java.getText().toString(),JAVAS.getText().toString(), Go.getText().toString(),Kotlin.getText().toString(),python.getText().toString(), scala.getText().toString(),rubi.getText().toString(),switf.getText().toString()};
+            for (int i=0;i<Lista.length;i++){
+                Toast.makeText(this,Lista[i],Toast.LENGTH_SHORT).show();
+            }
+
+        }
+        if (java.isChecked() && JAVAS.isChecked() && Go.isChecked() && Kotlin.isChecked() && python.isChecked() && scala.isChecked() && rubi.isChecked()){
+            String[] Lista = {java.getText().toString(),JAVAS.getText().toString(), Go.getText().toString(),Kotlin.getText().toString(),python.getText().toString(), scala.getText().toString(),rubi.getText().toString()};
+            for (int i=0;i<Lista.length;i++){
+                Toast.makeText(this,Lista[i],Toast.LENGTH_SHORT).show();
+            }
+
+        }
+        if (java.isChecked() && JAVAS.isChecked() && Go.isChecked() && Kotlin.isChecked() && python.isChecked() && scala.isChecked()){
+            String[] Lista = {java.getText().toString(),JAVAS.getText().toString(), Go.getText().toString(),Kotlin.getText().toString(),python.getText().toString(), scala.getText().toString()};
+            for (int i=0;i<Lista.length;i++){
+                Toast.makeText(this,Lista[i],Toast.LENGTH_SHORT).show();
+            }
+
+        }
+        if (java.isChecked() && JAVAS.isChecked() && Go.isChecked() && Kotlin.isChecked() && python.isChecked()){
+            String[] Lista = {java.getText().toString(),JAVAS.getText().toString(), Go.getText().toString(),Kotlin.getText().toString(),python.getText().toString()};
+            for (int i=0;i<Lista.length;i++){
+                Toast.makeText(this,Lista[i],Toast.LENGTH_SHORT).show();
+            }
+
+        }
+        if (java.isChecked() && JAVAS.isChecked() && Go.isChecked() && Kotlin.isChecked()){
+            String[] Lista = {java.getText().toString(),JAVAS.getText().toString(), Go.getText().toString(),Kotlin.getText().toString()};
+            for (int i=0;i<Lista.length;i++){
+                Toast.makeText(this,Lista[i],Toast.LENGTH_SHORT).show();
+            }
+
+        }
+        if (java.isChecked() && JAVAS.isChecked() && Go.isChecked()){
+            String[] Lista = {java.getText().toString(),JAVAS.getText().toString(), Go.getText().toString()};
+            for (int i=0;i<Lista.length;i++){
+                Toast.makeText(this,Lista[i],Toast.LENGTH_SHORT).show();
+            }
+
+        }
+        if (java.isChecked() && JAVAS.isChecked() ){
+            String[] Lista = {java.getText().toString(),JAVAS.getText().toString()};
+            for (int i=0;i<Lista.length;i++){
+                Toast.makeText(this,Lista[i],Toast.LENGTH_SHORT).show();
+            }
+
+        }
+        if (java.isChecked()){
+            String[] Lista = {java.getText().toString()};
+            for (int i=0;i<Lista.length;i++){
+                Toast.makeText(this,Lista[i],Toast.LENGTH_SHORT).show();
+            }
+
+        }
+
+
+
     }
 }
